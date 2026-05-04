@@ -18,6 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    gap: 20px;
 }
 
 .div_first{
@@ -40,5 +41,28 @@ body{
     color: rgb(222, 222, 222);
     margin-top: 1rem;
     text-align: justify;
+}
+
+
+.div_second{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 50px 40px;
+    width: 400px;
+    height: auto ;
+    background: rgb(2, 31, 93);
+    border-radius: 20px;
+    border-top: 6px solid rgb(0, 183, 255);
+}
+
+.div_second h2{
+    text-align: center;
+    color: white;
+}
+
+.div_second ul{
+    padding: 30px 60px;
+    color: white;
 }
 
